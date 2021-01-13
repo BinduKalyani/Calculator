@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:id="@+id/editText"
         android:inputType="number"
-        android:layout_height="130dp"
-        android:layout_marginTop="20dp"
-        android:padding="20dp"/>
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_20sdp"/>
 
 
     <Button
@@ -20,63 +20,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_1"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="@dimen/_160sdp"
         android:layout_marginStart="20dp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="204dp" />
+        tools:layout_editor_absoluteX="@dimen/_61sdp"
+        tools:layout_editor_absoluteY="@dimen/_204sdp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="@dimen/_160sdp"
         android:text="@string/_2"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="204dp" />
+        tools:layout_editor_absoluteX="@dimen/_177sdp"
+        tools:layout_editor_absoluteY="@dimen/_204sdp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_3"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="200dp"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="204dp" />
+        android:layout_marginStart="@dimen/_205sdp"
+        android:layout_marginTop="@dimen/_160sdp"
+        tools:layout_editor_absoluteX="@dimen/_307sdp"
+        tools:layout_editor_absoluteY="@dimen/_204sdp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button1"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/_4"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="277dp" />
+        tools:layout_editor_absoluteX="@dimen/_61sdp"
+        tools:layout_editor_absoluteY="@dimen/_277sdp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_below="@id/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_height="wrap_content"
         android:text="@string/_5"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteX="@dimen/_177sdp"
+        tools:layout_editor_absoluteY="@dimen/_286sdp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button3"
-       android:layout_marginStart="290dp"
-        android:layout_marginTop="30dp"
+       android:layout_marginStart="@dimen/_205sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/_6"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteX="@dimen/_307sdp"
+        tools:layout_editor_absoluteY="@dimen/_285sdp" />
 
     <Button
         android:id="@+id/button7"
@@ -84,10 +84,10 @@
         android:layout_height="wrap_content"
         android:text="@string/_7"
         android:layout_below="@id/button4"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="359dp" />
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_61dp"
+        tools:layout_editor_absoluteY="@dimen/_359dp" />
 
     <Button
         android:id="@+id/button8"
@@ -95,21 +95,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button5"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/_8"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="359dp" />
+        tools:layout_editor_absoluteX="@dimen/_177sdp"
+        tools:layout_editor_absoluteY="@dimen/_359sdp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button6"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/_205sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/nine"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="359dp" />
+        tools:layout_editor_absoluteX="@dimen/_307dp"
+        tools:layout_editor_absoluteY="@dimen/_359dp" />
 
     <Button
         android:id="@+id/button10"
@@ -117,10 +117,10 @@
         android:layout_height="wrap_content"
         android:text="@string/zero"
         android:layout_below="@id/button9"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="441dp" />
+        android:layout_marginStart="@dimen/_205sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_61sdp"
+        tools:layout_editor_absoluteY="@dimen/_441sdp" />
 
     <Button
         android:id="@+id/button11"
@@ -128,10 +128,10 @@
         android:layout_height="wrap_content"
         android:text="@string/clear"
         android:layout_below="@id/button7"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="441dp" />
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_177sdp"
+        tools:layout_editor_absoluteY="@dimen/_441sdp" />
 
     <Button
         android:id="@+id/button12"
@@ -140,9 +140,9 @@
         android:text="@string/equal"
         android:layout_below="@id/button8"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="441dp" />
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_307sdp"
+        tools:layout_editor_absoluteY="@dimen/_441sdp" />
 
     <Button
         android:id="@+id/button13"
@@ -150,10 +150,10 @@
         android:layout_height="wrap_content"
         android:text="@string/operate"
         android:layout_below="@id/button11"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="511dp" />
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_193sdp"
+        tools:layout_editor_absoluteY="@dimen/_511sdp" />
 
     <Button
         android:id="@+id/button14"
@@ -162,7 +162,7 @@
         android:text="@string/dot"
         android:layout_below="@id/button12"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="511dp" />
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_193sdp"
+        tools:layout_editor_absoluteY="@dimen/_511sdp" />
 </RelativeLayout>
